@@ -1,15 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #E5E5E5;
 }
 
 @media (min-width: 600px) and (max-width: 812px) {
-
   .wrapper {
     position: relative;
     width: 812px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     height: 375px;
     overflow-y: hidden;
   }
@@ -22,65 +20,91 @@
     margin: auto;
   }
 
-  .black-piano-deck{
-     position: absolute;
-    top:0;
-    background-color: #2D363F;
-    width:812%;
+  .black-piano-deck {
+    position: absolute;
+    top: 0;
+    background-color: #2d363f;
+    width: 812%;
     height: 291px;
   }
-
 }
 
 @media (min-width: 813px) and (max-width: 1280px) {
-    .wrapper {
-        position: relative;
-        width: 812px;
-        background-color: #FFFFFF;
-        height: 620px;
-        overflow-y: hidden;
-        margin: auto;
-      }
+  .wrapper {
+    position: relative;
+    width: 812px;
+    background-color: #ffffff;
+    height: 620px;
+    overflow-y: hidden;
+    margin: auto;
+  }
 
-      .button-operator-layout {
-        background-color: #f0f0f0;
-        width: 500px;
-        height: 620px;
-        margin: auto;
-      }
+  .button-operator-layout {
+    background-color: #f0f0f0;
+    width: 500px;
+    height: 620px;
+    margin: auto;
+  }
 
-      .black-piano-deck{
-       position: absolute;
-       top:0;
-       background-color: #2D363F;
-       width:1280px;
-       height: 458px;
-     }
-
+  .black-piano-deck {
+    position: absolute;
+    top: 0;
+    background-color: #2d363f;
+    width: 1280px;
+    height: 458px;
+  }
 }
 
 @media (min-width: 1280px) and (max-width: 1792px) {
-    .wrapper {
-        position: relative;
-        width: 1280px;
-        background-color: #FFFFFF;
-        height: 720px;
-        overflow-y: hidden;
-        margin: auto;
-      }
+  .wrapper {
+    position: relative;
+    width: 1280px;
+    background-color: #ffffff;
+    height: 720px;
+    overflow-y: hidden;
+    margin: auto;
+    /* box-shadow:0 0 50px rgba(0,0,0,0.5) inset,0 1px rgba(212,152,125,0.2) inset,0 5px 15px rgba(0,0,0,0.5) */
+  }
 
-      .button-operator-layout {
-        background-color: #f0f0f0;
-        width: 500px;
-        height: 720px;
-        margin: auto;
-      }
+  .button-operator-layout {
+    background-color: #f0f0f0;
+    width: 500px;
+    height: 720px;
+    margin: auto;
+  }
 
-      .black-piano-deck{
-        position: absolute;
-        top:0;
-        background-color: #2D363F;
-        width:1280px;
-        height: 458px;
-      }
+  .black-piano-deck {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top: 0;
+    background-color: #2d363f;
+    width: 1280px;
+    height: 458px;
+    /* z-index:1; */
+  }
+
+  .parent {
+    position: relative;
+  }
+
+  .white {
+    width: 125px;
+    height: 429px;
+    z-index: 1;
+    border-left: 1px solid black;
+    position: relative;
+    background-color: #e5e5e5;
+  }
+
+  .black {
+    width: 98px;
+    height: 245px;
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    left: 76px;
+    background-color: black;
+    border-left: 1px solid black;
+  }
 }
