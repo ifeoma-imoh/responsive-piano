@@ -17,7 +17,6 @@
 
   .button-operator-layout {
     background-color: #f0f0f0;
-    /* border: 1px solid black; */
     width: 317px;
     height: 375px;
     margin: auto;
@@ -38,7 +37,6 @@
   }
 
   .white {
-      /* find out how to attach mixed border radius */
     width: 79px;
     height: 272px;
     z-index: 1;
@@ -108,7 +106,6 @@
   }
 
   .white {
-      /* find out how to attach mixed border radius */
     width: 117px;
     height: 403px;
     z-index: 1;
@@ -165,7 +162,6 @@
   .black-piano-deck {
     display: flex;
     position: absolute;
-  /* How can i add grid gap instead of space between with display flex */
     justify-content: space-between;
     top: 0;
     background-color: #2d363f;
@@ -180,7 +176,6 @@
   }
 
   .white {
-      /* find out how to attach mixed border radius */
     width: 125px;
     height: 429px;
     z-index: 1;
